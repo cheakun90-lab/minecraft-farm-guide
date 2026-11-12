@@ -164,6 +164,105 @@ final class Guides {
                 "Place a campfire under the hive so the bees stay calm when you harvest.",
                 "When the hive is full of honey, right-click it with a glass bottle to get honey.",
                 "Use shears on a full hive to get honeycomb."
+            }),
+
+        new Guide(
+            "Iron Golem Farm",
+            "Advanced. Automatic iron ingots from iron golems.",
+            new String[]{"3 or more villagers", "A bed for each villager", "A zombie in a cage", "Name tag", "Boats or minecarts to move villagers", "Water bucket", "Lava bucket", "Hoppers and a chest", "Lots of building blocks"},
+            new String[]{
+                "Build the farm up high or underground and close it in, so other mobs cannot spawn nearby.",
+                "Bring the villagers in by boat or minecart and give each one its own small cell with a bed.",
+                "Put a zombie in a cage where the villagers can see it. Scared villagers make iron golems spawn.",
+                "Use a name tag on the zombie so it never despawns, and keep it out of sunlight so it does not burn.",
+                "Build a flat spawning platform around the villagers with 3 blocks of empty space above it.",
+                "Make water flow across the platform to push the golems to one spot.",
+                "At that spot, add a lava blade to kill the golems. Place it so the drops land on a hopper and not in the lava, because lava destroys items.",
+                "Run the hoppers into a chest. Each golem drops 3 to 5 iron ingots.",
+                "Be careful around lava. Java and Bedrock designs are different, so follow a tutorial made for your version."
+            }),
+
+        new Guide(
+            "Gunpowder (Creeper) Farm",
+            "Advanced. Gunpowder for fireworks and TNT.",
+            new String[]{"Lots of stone blocks", "Water buckets", "Hoppers and a chest", "Slabs (to stop spawns in the wrong places)", "Sword"},
+            new String[]{
+                "Build high in the sky or far from caves. Mobs spawn in the dark, so a farm in the open is the only dark place nearby.",
+                "Light up the ground and caves near you so mobs spawn only in your farm.",
+                "Build a big spawning platform with walls and a roof. Leave it dark and put no torches inside.",
+                "Leave 3 blocks of height so creepers can spawn.",
+                "Make water streams that push the mobs to a hole in the middle.",
+                "Under the hole, add hoppers and a chest, or a long drop to a kill spot.",
+                "Mobs only spawn when you are 24 to 128 blocks away, so build an AFK spot in that range.",
+                "Creepers drop 0 to 2 gunpowder each. Collect it from the chest."
+            }),
+
+        new Guide(
+            "Firework Rocket Farm",
+            "Advanced. Rockets to boost your elytra.",
+            new String[]{"Sugar cane farm (for paper)", "Gunpowder farm", "Crafting table", "Elytra"},
+            new String[]{
+                "Build a big sugar cane farm.",
+                "Craft 3 sugar cane into 3 paper.",
+                "Build a gunpowder farm and collect plenty of gunpowder.",
+                "Craft 1 paper and 1 gunpowder into 3 firework rockets.",
+                "Use 2 or 3 gunpowder in the recipe for rockets that boost you for longer.",
+                "Fly with an elytra and right-click a rocket while gliding to speed up.",
+                "Do not fly with rockets that have firework stars in them. The explosion hurts you."
+            }),
+
+        new Guide(
+            "Mob Grinder (XP Farm)",
+            "Advanced. Fast XP, bones, string and more.",
+            new String[]{"Lots of building blocks", "Water buckets", "Hoppers and a chest", "Sword (Looting is a bonus)"},
+            new String[]{
+                "Build several dark floors that mobs can spawn on, with no torches.",
+                "Add water channels on every floor to push the mobs to one drop.",
+                "Make the drop about 22 blocks. Most mobs survive on a sliver of health.",
+                "At the bottom, hit each mob once with your sword so you get the XP and the loot. Mobs killed only by the fall give no XP.",
+                "Put hoppers under the kill spot and run them into a chest.",
+                "Stand at an AFK spot 24 or more blocks away while mobs spawn.",
+                "A sword with Looting gives more drops."
+            }),
+
+        new Guide(
+            "Gold Farm",
+            "Advanced. Gold from zombified piglins.",
+            new String[]{"Obsidian for a Nether portal", "Flint and steel", "Water buckets", "Hoppers and a chest", "Building blocks"},
+            new String[]{
+                "Build a large Nether portal high in the Overworld sky.",
+                "Zombified piglins sometimes spawn from the portal blocks.",
+                "Build a platform around the portal and use water to push them to one spot.",
+                "Drop them into a kill chamber with hoppers below.",
+                "Run the hoppers into a chest. They drop gold nuggets and sometimes gold ingots.",
+                "Smelt 9 gold nuggets into one ingot by crafting them."
+            }),
+
+        new Guide(
+            "Villager Breeder",
+            "Advanced. More villagers for trading.",
+            new String[]{"2 villagers", "Beds (more than villagers)", "Bread, carrots, potatoes or beetroot", "Boats or minecarts", "Fences or walls"},
+            new String[]{
+                "Bring 2 villagers into a room with walls and a roof so zombies cannot get in.",
+                "Add more beds than villagers. A free bed is needed for a baby to be born.",
+                "Throw food on the floor in front of them. They need about 3 bread or 12 carrots, potatoes or beetroot.",
+                "Hearts appear and a baby villager is born.",
+                "Babies take about 20 minutes to grow up.",
+                "Give each adult a workstation so they get a job and start trading.",
+                "Keep breeding to grow your trading hall."
+            }),
+
+        new Guide(
+            "Tree Farm",
+            "Wood and saplings without searching for trees.",
+            new String[]{"Saplings", "Dirt or grass blocks", "Bone meal", "Axe", "Torches"},
+            new String[]{
+                "Clear a flat area and plant saplings on dirt or grass with a few blocks of space between them.",
+                "Add torches so the saplings get enough light to grow.",
+                "Use bone meal to grow the trees faster.",
+                "Chop the logs with an axe. Leave the dirt and replant.",
+                "Break the leaves to collect more saplings and sometimes apples.",
+                "Craft logs into planks and sticks."
             })
     };
 }
